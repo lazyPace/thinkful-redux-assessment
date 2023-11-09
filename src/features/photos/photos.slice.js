@@ -30,7 +30,6 @@ const options = {
 }
 
 const photosSlice = createSlice(options)
-console.log(photos)
 export const { addPhoto, removePhoto } = photosSlice.actions
 
 export default photosSlice.reducer
